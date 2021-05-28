@@ -9,7 +9,7 @@ We have to code a network to do the following task
 
 Input to the network ->  MNIST Image  , 5 (random number (0-9))                              
 
-<img src="assests\dataset_sample.png" alt="sample_image" style="zoom:25%;" />
+<img src="assests\dataset_sample.png" alt="sample_image" width="200" />
 
 
 Expected output from the network
