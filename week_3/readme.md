@@ -86,7 +86,7 @@ In getitem method we are structuring the data. The following things we are doing
 
 
 
-<img src="assests\training_curve.png" alt="sample_image" style="zoom:25%;" />
+<img src="assests\training_curve.png" alt="sample_image" width="200" />
 
 #### Results:
 
