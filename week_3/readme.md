@@ -9,8 +9,7 @@ We have to code a network to do the following task
 
 Input to the network ->  MNIST Image  , 5 (random number (0-9))                              
 
-<img src="assests\dataset_sample.png" alt="sample_image" style="zoom:25%;" />-> 
-
+<img src="assests\dataset_sample.png" alt="sample_image" style="zoom:25%;" />
 
 
 Expected output from the network
@@ -87,7 +86,7 @@ In getitem method we are structuring the data. The following things we are doing
 
 
 
-![download (2)](assests\training_curve.png)
+<img src="assests\training_curve.png" alt="sample_image" style="zoom:25%;" />
 
 #### Results:
 
@@ -99,4 +98,4 @@ Summation accuracy: 93.6
 
 #### Sample inference
 
-![download (3)](assests\result_sample.png)
+<img src="assests\result_sample.png" alt="sample_image" style="zoom:25%;" />
