@@ -16,7 +16,7 @@
     1.  Model is under fitting. 
     2.  It is a good model can be pushed further.
   
-  Link to notebook: https://github.com/aditdoshi333/EVA_5_Phase1/blob/master/Assignment_5/Notebooks/Step_1.ipynb
+  Link to notebook: https://github.com/aditdoshi333/Extensive-Vision-AI-Program-6/blob/master/week_5/Notebooks/Step_1.ipynb
 
 **Step 2**
 
@@ -32,7 +32,7 @@
     2. From the data we can see that in some image rotation is present. So we can use rotation to augment training data.
     3.  There is no over fitting so we can add layer after GAP layer to push it further.
       
-  Link to notebook: https://github.com/aditdoshi333/EVA_5_Phase1/blob/master/Assignment_5/Notebooks/Step_2.ipynb
+  Link to notebook: https://github.com/aditdoshi333/Extensive-Vision-AI-Program-6/blob/master/week_5/Notebooks/Step_2.ipynb
 
 
 
@@ -51,3 +51,6 @@
 2.  Analysis:
 	1. It is a good model can be pushed further. There is no over fitting in the model so it is a good sign.
 	2. Finding a good LR scheduler is difficult. Here we are reducing LR by 10th after every 4 epochs. But we are not able to cross 99.5. Still there is a scope of learning in the model as training accuracy is 98.75 only. So probably a good LR scheduler can push it beyond 99.5
+
+  Link to notebook: https://github.com/aditdoshi333/Extensive-Vision-AI-Program-6/blob/master/week_5/Notebooks/Step_3.ipynb
+
