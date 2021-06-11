@@ -16,7 +16,7 @@
     1.  Model is under fitting. 
     2.  It is a good model can be pushed further.
   
-  Link to notebook: https://github.com/aditdoshi333/EVA_5_Phase1/blob/master/Assignment_5/Notebooks/Step_1.ipynb
+  Link to notebook: https://github.com/aditdoshi333/Extensive-Vision-AI-Program-6/blob/master/week_5/Notebooks/Step_1.ipynb
 
 **Step 2**
 
@@ -32,35 +32,25 @@
     2. From the data we can see that in some image rotation is present. So we can use rotation to augment training data.
     3.  There is no over fitting so we can add layer after GAP layer to push it further.
       
-  Link to notebook: https://github.com/aditdoshi333/EVA_5_Phase1/blob/master/Assignment_5/Notebooks/Step_2.ipynb
+  Link to notebook: https://github.com/aditdoshi333/Extensive-Vision-AI-Program-6/blob/master/week_5/Notebooks/Step_2.ipynb
+
+
+
 
 **Step 3**
 
-1. Target:
-	1. Increase model capacity at the end (add layer after GAP)
-	2.  Add rotation, our guess is that 7-10 degrees should be sufficient.
-2.  Results:
-    1.  Parameters: 9678
-    2.  Best Training Accuracy: 98.76 (15th epoch)
-    3.  Best Test Accuracy: 99.21 (15th epoch)
-3.  Analysis:
-    1.  It is a good model can be pushed further. There is no over fitting in the model so it is a good sign.
-    3. From the graph we can see that there are oscillations in accuracy. We can fix that using LR scheduler. 
-  
-  Link to notebook: https://github.com/aditdoshi333/EVA_5_Phase1/blob/master/Assignment_5/Notebooks/Step_3.ipynb
-
-
-**Step 4**
 
 1. Target:
-	1.  Add LR Scheduler
+	1. Add LR Scheduler
+	2. Increase model capacity at the end (add layer after GAP) Add rotation, our guess is that 7-10 degrees should be sufficient.
+	3. Add rotation, our guess is that 7-10 degrees should be sufficient.
+3.  Results:
+	1. Parameters: 9678
+	2. Best Training Accuracy: 98.74 (12th Epoch)
+	3. Best Test Accuracy: 99.47 (11th Epoch)
+2.  Analysis:
+	1. It is a good model can be pushed further. There is no over fitting in the model so it is a good sign.
+	2. Finding a good LR scheduler is difficult. Here we are reducing LR by 10th after every 4 epochs. But we are not able to cross 99.5. Still there is a scope of learning in the model as training accuracy is 98.75 only. So probably a good LR scheduler can push it beyond 99.5
 
-2.  Results:
-    1.  Parameters: 9678
-    2.  Best Training Accuracy:  98.74 (12th Epoch)
-    3.  Best Test Accuracy: 99.47 (11th Epoch)
-3.  Analysis:
-	1. Finding a good LR scheduler is difficult. Here we are reducing LR by 10th after every 4 epochs. But we are not able to cross 99.5. Still there is a scope of learning in the model as training accuracy is 98.75 only. So probably a good LR scheduler can push it beyond 99.5
-  
-  Link to notebook:
-  https://github.com/aditdoshi333/EVA_5_Phase1/blob/master/Assignment_5/Notebooks/Step_4.ipynb
+  Link to notebook: https://github.com/aditdoshi333/Extensive-Vision-AI-Program-6/blob/master/week_5/Notebooks/Step_3.ipynb
+
