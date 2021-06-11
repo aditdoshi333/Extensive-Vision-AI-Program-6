@@ -32,7 +32,7 @@ There are mainly three types of Normalization techniques we will be discussing:-
 - Layer Normalization
 - Group Normalization
 
-![1_xf37Ts0mdBGiS-keOwviOQ](/assets/norms.png)
+![norms_methods](assets/norms.png)
 
 ##### Batch Normalization
 
