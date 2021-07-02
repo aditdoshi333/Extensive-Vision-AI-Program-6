@@ -32,7 +32,7 @@ There are mainly three types of Normalization techniques we will be discussing:-
 - Layer Normalization
 - Group Normalization
 
-![1_xf37Ts0mdBGiS-keOwviOQ](/home/adit/Downloads/1_xf37Ts0mdBGiS-keOwviOQ.png)
+![norms_methods](assets/norms.png)
 
 ##### Batch Normalization
 
@@ -50,7 +50,7 @@ Rescaling the data points w.r.t specific group of layer in an image
 
 ##### Example
 
-![Screenshot from 2021-06-12 03-08-11](/home/adit/Pictures/Screenshot from 2021-06-12 03-08-11.png)
+![exls_result](assets/excel_result.png)
 
 ### Model learning graphs
 
@@ -58,11 +58,11 @@ Rescaling the data points w.r.t specific group of layer in an image
 
 ##### Training Loss
 
-##### ![train_loss](/home/adit/Downloads/train_loss.png)
+##### ![train_loss](assets/train_loss.png)
 
 ##### Test Loss
 
-![test_loss](/home/adit/Downloads/test_loss.png)
+![test_loss](assets/test_loss.png)
 
 
 
@@ -70,13 +70,13 @@ Rescaling the data points w.r.t specific group of layer in an image
 
 
 
-![train_acc](/home/adit/Downloads/train_acc.png)
+![train_acc](assets/train_acc.png)
 
 
 
 ##### Testing Accuracy
 
-![test_acc](/home/adit/Downloads/test_acc.png)
+![test_acc](assets/test_acc.png)
 
 
 
@@ -86,16 +86,16 @@ Rescaling the data points w.r.t specific group of layer in an image
 
 #### Model 1 (Group Normalization + L1)
 
-![grp_nrm_img](/home/adit/Downloads/grp_nrm_img.png)
+![grp_nrm_img](assets/grp_nrm_img.png)
 
 #### Model 2 (Layer Normalization + L2)
 
 
 
-![layer_norm_img](/home/adit/Downloads/layer_norm_img.png)
+![layer_norm_img](assets/layer_norm_img.png)
 
 #### Model 3 (Batch Normalization + L1 + L2 )
 
 
 
-![batch_norm_img](/home/adit/Downloads/batch_norm_img.png)
+![batch_norm_img](assets/batch_norm_img.png)
