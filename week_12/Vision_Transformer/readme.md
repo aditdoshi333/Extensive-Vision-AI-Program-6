@@ -90,11 +90,11 @@ class Embeddings(nn.Module):
 
 The result of the self-attention operation is sent to MLP, which consists of two sequential linear layers with a GELU activation function applied to the output. The sequence is shown in the following chart.
 
-**![mlp](/home/adit/Documents/GitHub/Extensive-Vision-AI-Program-6/week_12/assets/mlp.jpg)GeLU**
+**![mlp](../assets/mlp.jpg)GeLU**
 
 The **Gaussian Error Linear Unit**, or **GELU**, is an activation function. The GELU activation function is xΦ(x), where Φ(x) the standard Gaussian cumulative distribution function. The GELU nonlinearity weights inputs by their percentile, rather than gates inputs by their sign as in [ReLUs](https://paperswithcode.com/method/relu) (x1x>0). Consequently the GELU can be thought of as a smoother ReLU.
 
-![gelu](/home/adit/Documents/GitHub/Extensive-Vision-AI-Program-6/week_12/assets/gelu.png)
+![gelu](../assets/gelu.png)
 
 
 
@@ -133,7 +133,7 @@ class Mlp(nn.Module):
 
 The block class combines both the attention module and the MLP module. Along with that it combines dropout, skip connections and layer norm. The sequence diagram is as follow:
 
-![block](/home/adit/Documents/GitHub/Extensive-Vision-AI-Program-6/week_12/assets/block.jpg)
+![block](../assets/block.jpg)
 
 **Code block:**
 
@@ -167,7 +167,7 @@ class Block(nn.Module):
 
 The transformers' attention system allows them to have extraordinarily long-term memory. A transformer model can attend on all previously created tokens. The attention takes three inputs, the well-known queries, keys, and values, and computes the attention matrix from the queries and values, which it then uses to attend to the values.
 
-![attn](/home/adit/Documents/GitHub/Extensive-Vision-AI-Program-6/week_12/assets/attn.jpg)
+![attn](../assets/attn.jpg)
 
 ```
 class Attention(nn.Module):
