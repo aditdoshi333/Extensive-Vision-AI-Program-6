@@ -12,9 +12,9 @@ The chances of a model working better are higher if the complete image data is p
 
 Colab notebook: https://colab.research.google.com/drive/1XRaL8ThGma1WZ5BwTKDhFFW5nHIdyApm?usp=sharing
 
-Github notebook:
+Github notebook: https://github.com/aditdoshi333/Extensive-Vision-AI-Program-6/blob/master/week_12/Assignment12_Spatial_Transformer.ipynb
 
-Readme of ViT: 
+Readme of ViT: https://github.com/aditdoshi333/Extensive-Vision-AI-Program-6/blob/master/week_12/Vision_Transformer/readme.md
 
 ### Spatial Transformer
 
