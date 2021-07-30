@@ -38,13 +38,13 @@ Source: https://theaisummer.com/vision-transformer/
 
 **Step 1:**
 
-![step_1](/home/adit/Documents/GitHub/Extensive-Vision-AI-Program-6/week_12/assets/step_1.jpeg)
+![step_1](../assets/step_1.jpeg)
 
 
 
 **Step 2:** 
 
-![step_2](/home/adit/Documents/GitHub/Extensive-Vision-AI-Program-6/week_12/assets/step_2.jpeg)
+![step_2](../assets/step_2.jpeg)
 
 
 
